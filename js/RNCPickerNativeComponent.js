@@ -44,4 +44,4 @@ export type RNCPickerIOSType = HostComponent<
   |}>,
 >;
 
-module.exports = ((requireNativeComponent('RNCPicker'): any): RNCPickerIOSType);
+module.exports = ((requireNativeComponent('RNCPickerComp'): any): RNCPickerIOSType);

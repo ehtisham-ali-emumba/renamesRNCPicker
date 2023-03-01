@@ -5,15 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RNCPicker.h"
+#import "RNCPickerComp.h"
 
 #import <React/RCTConvert.h>
 #import <React/RCTUtils.h>
 
-@interface RNCPicker() <UIPickerViewDataSource, UIPickerViewDelegate>
+@interface RNCPickerComp() <UIPickerViewDataSource, UIPickerViewDelegate>
 @end
 
-@implementation RNCPicker
+@implementation RNCPickerComp
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

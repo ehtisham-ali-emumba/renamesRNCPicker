@@ -11,7 +11,7 @@
 
 #import "RNCPickerLabel.h"
 
-@interface RNCPicker : UIPickerView
+@interface RNCPickerComp : UIPickerView
 
 @property (nonatomic, copy) NSArray<NSDictionary *> *items;
 @property (nonatomic, assign) NSInteger selectedIndex;

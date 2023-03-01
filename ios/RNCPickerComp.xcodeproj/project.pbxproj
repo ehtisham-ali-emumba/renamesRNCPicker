@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65A65136236317E000467FDE /* RNCPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A65135236317E000467FDE /* RNCPickerManager.m */; };
+		65A65136236317E000467FDE /* RNCPickerCompManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A65135236317E000467FDE /* RNCPickerCompManager.m */; };
 		83CE2A3626889B7700470183 /* RNCPickerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE2A3526889B7700470183 /* RNCPickerLabel.m */; };
-		B3E7B58A1CC2AC0600A0062D /* RNCPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCPicker.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNCPickerComp.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNCPickerComp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNCPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A65134236317E000467FDE /* RNCPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPickerManager.h; sourceTree = "<group>"; };
-		65A65135236317E000467FDE /* RNCPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPickerManager.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNCPickerComp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCPickerComp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A65134236317E000467FDE /* RNCPickerCompManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPickerCompManager.h; sourceTree = "<group>"; };
+		65A65135236317E000467FDE /* RNCPickerCompManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPickerCompManager.m; sourceTree = "<group>"; };
 		83CE2A3426889B7700470183 /* RNCPickerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPickerLabel.h; sourceTree = "<group>"; };
 		83CE2A3526889B7700470183 /* RNCPickerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPickerLabel.m; sourceTree = "<group>"; };
-		B3E7B5881CC2AC0600A0062D /* RNCPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPicker.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNCPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPicker.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNCPickerComp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCPickerComp.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNCPickerComp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCPickerComp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNCPicker.a */,
+				134814201AA4EA6300B7C361 /* libRNCPickerComp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +58,10 @@
 			children = (
 				83CE2A3426889B7700470183 /* RNCPickerLabel.h */,
 				83CE2A3526889B7700470183 /* RNCPickerLabel.m */,
-				65A65134236317E000467FDE /* RNCPickerManager.h */,
-				65A65135236317E000467FDE /* RNCPickerManager.m */,
-				B3E7B5881CC2AC0600A0062D /* RNCPicker.h */,
-				B3E7B5891CC2AC0600A0062D /* RNCPicker.m */,
+				65A65134236317E000467FDE /* RNCPickerCompManager.h */,
+				65A65135236317E000467FDE /* RNCPickerCompManager.m */,
+				B3E7B5881CC2AC0600A0062D /* RNCPickerComp.h */,
+				B3E7B5891CC2AC0600A0062D /* RNCPickerComp.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNCPicker */ = {
+		58B511DA1A9E6C8500147676 /* RNCPickerComp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPicker" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPickerComp" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = RNCPicker;
+			name = RNCPickerComp;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNCPicker.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libRNCPickerComp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPicker" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPickerComp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNCPicker */,
+				58B511DA1A9E6C8500147676 /* RNCPickerComp */,
 			);
 		};
 /* End PBXProject section */
@@ -124,8 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83CE2A3626889B7700470183 /* RNCPickerLabel.m in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RNCPicker.m in Sources */,
-				65A65136236317E000467FDE /* RNCPickerManager.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNCPickerComp.m in Sources */,
+				65A65136236317E000467FDE /* RNCPickerCompManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNCPicker;
+				PRODUCT_NAME = RNCPickerComp;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -240,7 +240,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNCPicker;
+				PRODUCT_NAME = RNCPickerComp;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -248,7 +248,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPicker" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNCPickerComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -257,7 +257,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPicker" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNCPickerComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,

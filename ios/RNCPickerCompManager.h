@@ -7,6 +7,6 @@
 
 #import <React/RCTViewManager.h>
 
-@interface RNCPickerManager : RCTViewManager
+@interface RNCPickerCompManager : RCTViewManager
 
 @end
